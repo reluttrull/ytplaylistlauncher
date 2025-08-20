@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ytplaylistlauncher"
-version = "0.0.1"
+version = "0.0.8"
 authors = [
     { name="Ryan Luttrull", email="reluttrull@gmail.com" },
 ]
@@ -24,4 +24,4 @@ packages = ["src"]
 Homepage = "https://github.com/reluttrull/ytplaylistlauncher"
 
 [project.scripts]
-ytplaylistlauncher = "src.__main__:main"
+ytplaylistlauncher = "src.ytplaylistlauncher:main"

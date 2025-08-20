@@ -59,5 +59,5 @@ def search_playlists(search):
         webbrowser.open_new(playlisturlprefix+top_playlist["id"])
     else:
         print("Index not in range.  Do better next time and follow directions!")
-if __name__ == "__main__":
+if __name__ == "ytplaylistlauncher":
     main()
