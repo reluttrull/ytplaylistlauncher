@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ytplaylistlauncher"
+version = "0.0.1"
+authors = [
+    { name="Ryan Luttrull", email="reluttrull@gmail.com" },
+]
+description = "CL interface to search for and select YT Music playlists"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE*"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/reluttrull/ytplaylistlauncher"
+
+[project.scripts]
+ytplaylistlauncher = "src.__main__:main"
