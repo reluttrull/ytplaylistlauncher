@@ -4,11 +4,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ytplaylistlauncher"
-version = "0.0.8"
+version = "1.0.0"
 authors = [
     { name="Ryan Luttrull", email="reluttrull@gmail.com" },
 ]
 description = "CL interface to search for and select YT Music playlists"
+dependencies = ["ytmusicapi", "termcolor"]
 requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
